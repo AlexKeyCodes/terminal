@@ -1,0 +1,36 @@
+# Git shortcuts
+alias gb='git --no-pager branch'
+alias ga='git add'
+alias gaa='git add --all'
+alias gco='git checkout'
+alias gplo='git pull origin'
+alias gpso='git push origin'
+alias gcmsg='git commit -m'
+alias gst='git status'
+alias gf='git fetch'
+
+# Project navigation
+alias rgn='cd ~/Work/rg_new'
+alias acg='cd ~/Work/austin-city-guide'
+alias ggg='cd ~/Work/garlic_gardens'
+alias tm='cd ~/Work/tally_meals'
+alias kc='cd ~/Work/key_codes'
+alias 11ty='cd ~/Work/11ty-template'
+alias pf='cd ~/Work/portfolio'
+
+# Development shortcuts
+alias ber='bundle exec rails'
+alias br='bin/rails'
+alias bspec="bin/rspec"
+
+# SSH connections
+alias sshkc=''
+alias ssh88=''
+alias sshstg=''
+alias sshacg=''
+alias sshclient=''
+alias sshtmstg=''
+
+# ZSH
+alias zshconf='nvim ~/.zshrc'
+alias zshres='source ~/.zshrc'

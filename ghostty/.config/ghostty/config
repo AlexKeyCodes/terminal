@@ -1,0 +1,62 @@
+# Font configuration
+font-family = "MesloLGS NF"
+font-size = 14
+
+# Theme/Colors
+theme = catppuccin-mocha.conf
+background-blur = true
+background-opacity = 0.96
+window-theme=auto
+
+# Window settings
+window-padding-x = 8
+window-padding-y = 8
+window-decoration = none
+
+# Performance
+shell-integration = zsh
+shell-integration-features = cursor,sudo,title
+
+# Cursor
+cursor-style = block
+cursor-style-blink = true
+
+# Other useful settings
+confirm-close-surface = false
+copy-on-select = true
+
+# Copy/Paste keybindings
+keybind = ctrl+shift+c=copy_to_clipboard
+keybind = ctrl+shift+v=paste_from_clipboard
+
+# Split pane keybindings (vim motions)
+keybind = ctrl+shift+l=new_split:right
+keybind = ctrl+shift+j=new_split:down
+keybind = ctrl+shift+h=new_split:left
+keybind = ctrl+shift+k=new_split:up
+
+# Navigate between splits (vim motions)
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+l=goto_split:right
+keybind = ctrl+j=goto_split:down
+keybind = ctrl+k=goto_split:up
+
+# Resize splits with Ctrl+alt + vim motions
+keybind = ctrl+alt+h=resize_split:left,15
+keybind = ctrl+alt+j=resize_split:down,15
+keybind = ctrl+alt+k=resize_split:up,15
+keybind = ctrl+alt+l=resize_split:right,15
+
+# Close current split
+keybind = ctrl+shift+w=close_surface
+
+# Fullscreen toggle
+keybind = ctrl+shift+f=toggle_fullscreen
+
+# Copy and paste with Ctrl+C/Ctrl+V
+keybind = ctrl+c=copy_to_clipboard
+keybind = ctrl+v=paste_from_clipboard
+
+# Use Ctrl+Shift+C to send interrupt signal (cancel process)
+keybind = ctrl+shift+c=text:\x03
+keybind = shift+enter=text:\n

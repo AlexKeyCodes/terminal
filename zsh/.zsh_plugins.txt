@@ -1,0 +1,14 @@
+# ~/.zsh_plugins.txt
+# Essential zsh plugins
+
+# Completions - load first
+zsh-users/zsh-completions
+
+# Autosuggestions
+zsh-users/zsh-autosuggestions
+
+# Syntax highlighting - load last for best performance
+zsh-users/zsh-syntax-highlighting
+
+# Optional: Colored man pages
+ohmyzsh/ohmyzsh path:plugins/colored-man-pages

@@ -1,0 +1,10 @@
+# Ignore compiled plugin files
+.zsh_plugins.zsh
+
+# Ignore sensitive files if any
+*.local
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
