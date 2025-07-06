@@ -3,7 +3,7 @@ font-family = "MesloLGS NF"
 font-size = 14
 
 # Theme/Colors
-theme = catppuccin-mocha.conf
+theme = catppuccin-mocha
 background-blur = true
 background-opacity = 0.96
 window-theme=auto
