@@ -1,28 +1,43 @@
 Personal terminal configuration with Zsh, Starship, and Ghostty using Catppuccin theme.
 
-- Terminal: Ghostty
+- Terminal: [Ghostty](https://ghostty.org/)
 - Shell: zsh
-- Plugin Manager: antibody
+- Plugin Manager: [Antidote](https://antidote.sh/)
 - Plugins:
-    - https://github.com/zsh-users/zsh-syntax-highlighting
-    - https://github.com/zsh-users/zsh-completions
-    - https://github.com/zsh-users/zsh-autosuggestions
-- Prompt: Starship
+    - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+    - [zsh-completions](https://github.com/zsh-users/zsh-completions)
+    - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+- Prompt: [Starship](https://starship.rs/)
 - Search: fzf
+- File Management: yazi
 
 ## Prerequisites
 
 Install these before running the setup:
 
 ```bash
-# Arch Linux
-sudo pacman -S zsh starship ghostty ttf-jetbrains-mono stow
+# Nerd Font (I also like [MesloLGS NF](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Meslo.zip))
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip
+unzip FiraCode.zip -d FiraCode/
 
-# Fedora
-sudo dnf install zsh starship ghostty jetbrains-mono-fonts stow
+# Arch / Fedora Nerd Font Install
+mkdir -p ~/.local/share/fonts
+cp FiraCode/*.ttf ~/.local/share/fonts/
+fc-cache -fv
+rm -rf FiraCode/ FiraCode.zip
+
+# MacOS Nerd Font Install
+cp FiraCode/*.ttf ~/Library/Fonts/
+rm -rf FiraCode/ FiraCode.zi
+
+# Arch Linux
+sudo pacman -S zsh starship ghostty stow yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide imagemagick
+
+# Fedora (No yazi yet...)
+sudo dnf install zsh starship ghostty stow fzf
 
 # macOS
-brew install zsh starship ghostty font-jetbrains-mono stow
+brew install zsh starship ghostty stow yazi ffmpeg sevenzip jq poppler fd ripgrep fzf zoxide resvg imagemagick 
 ```
 
 ## Installation
