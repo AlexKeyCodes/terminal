@@ -1,5 +1,5 @@
 # Font configuration
-font-family = "FiraCode Nerd Font"
+font-family = "MesloLGS Nerd Font Mono"
 font-size = 18
 keybind = cmd+shift+,=reload_config
 # Theme/Colors
