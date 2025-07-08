@@ -25,10 +25,6 @@ cursor-style-blink = true
 confirm-close-surface = false
 copy-on-select = true
 
-# Copy/Paste keybindings
-keybind = ctrl+shift+c=copy_to_clipboard
-keybind = ctrl+shift+v=paste_from_clipboard
-
 # Split pane keybindings (vim motions)
 keybind = ctrl+shift+l=new_split:right
 keybind = ctrl+shift+j=new_split:down
@@ -53,10 +49,4 @@ keybind = ctrl+shift+w=close_surface
 # Fullscreen toggle
 keybind = ctrl+shift+f=toggle_fullscreen
 
-# Copy and paste with Ctrl+C/Ctrl+V
-keybind = ctrl+c=copy_to_clipboard
-keybind = ctrl+v=paste_from_clipboard
-
-# Use Ctrl+Shift+C to send interrupt signal (cancel process)
-keybind = ctrl+shift+c=text:\x03
 keybind = shift+enter=text:\n
