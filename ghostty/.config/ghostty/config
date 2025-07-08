@@ -1,12 +1,12 @@
 # Font configuration
-font-family = "MesloLGS Nerd Fond Mono"
+font-family = "MesloLGS Nerd Font Mono"
 font-size = 18
 
 # Theme/Colors
 theme = catppuccin-mocha
 background-blur = true
-background-opacity = 0.90
-#window-theme=auto
+background-opacity = 0.95
+window-theme=auto
 
 # Window settings
 window-padding-x = 8
