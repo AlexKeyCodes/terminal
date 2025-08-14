@@ -4,6 +4,7 @@ font-size = 18
 
 # Theme/Colors
 theme = catppuccin-mocha
+background = #1b1b26
 background-blur = true
 background-opacity = 0.95
 window-theme=auto
