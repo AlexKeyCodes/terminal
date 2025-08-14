@@ -45,9 +45,9 @@ brew install zsh starship ghostty stow yazi ffmpeg sevenzip jq poppler fd ripgre
 ```bash
 git clone git@github.com:AlexKeyCodes/terminal.git dotfiles
 cd dotfiles
-stow ghostty
-stow zsh
-stow starship
+stow -t ~ ghostty
+stow -t ~ zsh
+stow -t ~ starship
 ```
 
 ## ⚠️ Important
