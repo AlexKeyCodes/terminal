@@ -10,26 +10,15 @@ alias gst='git status'
 alias gf='git fetch'
 
 # Project navigation
-alias rgn='cd ~/Work/rg_new'
-alias acg='cd ~/Work/austin-city-guide'
-alias ggg='cd ~/Work/garlic_gardens'
-alias tm='cd ~/Work/tally_meals'
-alias kc='cd ~/Work/key_codes'
-alias 11ty='cd ~/Work/11ty-template'
-alias pf='cd ~/Work/portfolio'
+alias dir='cd ~/path/to/directory'
+
+# SSH connections
+alias sshex='ssh user@example.com'
 
 # Development shortcuts
 alias ber='bundle exec rails'
 alias br='bin/rails'
 alias bspec="bin/rspec"
-
-# SSH connections
-alias sshkc=''
-alias ssh88=''
-alias sshstg=''
-alias sshacg=''
-alias sshclient=''
-alias sshtmstg=''
 
 # ZSH
 alias zshconf='nvim ~/.zshrc'

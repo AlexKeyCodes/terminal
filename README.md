@@ -64,7 +64,7 @@ stow -t ~ starship
 
 ## ⚠️ Important
 
-**Update the aliases file!** The `.aliases` file contains personal project paths and SSH connections - modify these before using.
+**Example files**: The `zsh/.aliases` and `zsh/.zshrc` files are examples only. The `.aliases` file contains personal project paths and SSH connections - modify these before using. The `.zshrc` file is not stowed, just use it as a reference for your own configuration.
 
 **Adding plugins**: Edit `zsh/.zsh_plugins.txt` and run `antidote install` to update.
 
