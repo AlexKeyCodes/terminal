@@ -6,13 +6,13 @@ font-size = 18
 theme = catppuccin-mocha
 background = #1b1b26
 background-blur = true
-background-opacity = 0.95
+background-opacity = 0.96
 window-theme=auto
 
 # Window settings
 window-padding-x = 8
 window-padding-y = 8
-#window-decoration = none
+window-decoration = none
 
 # Performance
 shell-integration = zsh
