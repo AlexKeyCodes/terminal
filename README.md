@@ -16,19 +16,31 @@ Personal terminal configuration with Zsh, Starship, and Ghostty using Catppuccin
 Install these before running the setup:
 
 ```bash
-# Nerd Font (I also like [MesloLGS NF](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Meslo.zip))
+# Nerd Font (FiraCode or MesloLGS NF)
+
+# FiraCode Nerd Font
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip
 unzip FiraCode.zip -d FiraCode/
 
-# Arch / Fedora Nerd Font Install
-mkdir -p ~/.local/share/fonts
-cp FiraCode/*.ttf ~/.local/share/fonts/
-fc-cache -fv
-rm -rf FiraCode/ FiraCode.zip
+# MesloLGS Nerd Font (alternative)
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Meslo.zip
+unzip Meslo.zip -d Meslo/
 
-# MacOS Nerd Font Install
+# Arch / Fedora Install (choose one font)
+mkdir -p ~/.local/share/fonts
+# For FiraCode:
+cp FiraCode/*.ttf ~/.local/share/fonts/
+# For Meslo:
+cp Meslo/*.ttf ~/.local/share/fonts/
+fc-cache -fv
+rm -rf FiraCode/ FiraCode.zip Meslo/ Meslo.zip
+
+# MacOS Install (choose one font)
+# For FiraCode:
 cp FiraCode/*.ttf ~/Library/Fonts/
-rm -rf FiraCode/ FiraCode.zi
+# For Meslo:
+cp Meslo/*.ttf ~/Library/Fonts/
+rm -rf FiraCode/ FiraCode.zip Meslo/ Meslo.zip
 
 # Arch Linux
 sudo pacman -S zsh starship ghostty stow yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide imagemagick
