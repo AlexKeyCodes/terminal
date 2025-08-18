@@ -1,4 +1,5 @@
 # Font configuration
+# Linux Font: font-family = "MesloLGS NF"
 font-family = "MesloLGS Nerd Font Mono"
 font-size = 18
 
