@@ -1,9 +1,11 @@
 # Font configuration
-font-family = "MesloLGS NF"
-font-size = 14
+# Linux Font: font-family = "MesloLGS NF"
+font-family = "MesloLGS Nerd Font Mono"
+font-size = 18
 
 # Theme/Colors
 theme = catppuccin-mocha
+background = #1b1b26
 background-blur = true
 background-opacity = 0.96
 window-theme=auto
